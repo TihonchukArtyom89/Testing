@@ -11,7 +11,7 @@
 </head>
 <body>
     <ul>
-        @foreach (Product p in Model ?? Enumerable.Empty<Product>())
+        @foreach(Product p in Model ?? Enumerable.Empty<Product>())
         {
             <li>Name: @p.Name, Price: @p.Price</li>
         }
